@@ -53,7 +53,7 @@ flowchart TB
 
 | Decision | Choice | Detail |
 |---|---|---|
-| Deliverable | Proposal + architecture doc set (this repo) | + `CLAUDE.md` for future work |
+| Deliverable | Proposal + architecture doc set (this repo) | future implementation plan |
 | Primary UI | **WPF on .NET 10 (LTS), C# 14** | [docs/05](docs/05-ui-platform-options.md) |
 | Alternative UI | **Avalonia** (cross-platform), shared core | [docs/05](docs/05-ui-platform-options.md) |
 | Visualization | **Commercial GPU charting** (SciChart / LightningChart) | [docs/06](docs/06-visualization-layer.md) |
@@ -119,5 +119,5 @@ not in hand. The immediate next step is **Phase 0 (Discovery & POC)** in the
 [roadmap](docs/12-migration-roadmap.md): answer the gating questions, run the
 charting and interop spikes, and calibrate estimates.
 
-See [CLAUDE.md](CLAUDE.md) for how this repo is meant to evolve into the .NET
-solution.
+See the section above and [docs/03](docs/03-target-architecture.md) for the planned
+evolution into the .NET solution.
